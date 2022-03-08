@@ -16,6 +16,7 @@ while TRUE:
     if (double(price) > old_price):
         old_price = double(price)
 
-    print("\nCurrent tairov family crisis represented in ruble: ", price)
+    # (Euro to Ruble)
+    print("\nCurrent Ruble price: ", price)
     print("Highest price recorded by me: ", old_price)
     sleep(60)
